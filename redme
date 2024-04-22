@@ -1,0 +1,17 @@
+ npm i --save dotenv     -- to acccess the env
+
+ require("dotenv").config({path:"./.env"})  -- to configure
+ process.env.varname
+
+
+connect-- driver-- url
+ to connect databese in the link instead of password write yourpassword and  / dbname ?
+
+ --------------------------------------------------------------------------------------------------------------------------------
+ db related work -- models
+ req -- getting data from frontend
+ res -- sending data to frontend 
+ res.send -- text msg
+ res.json -- data json
+thunderclient or postman 
+logger- give log files -- npm i --save morgan
